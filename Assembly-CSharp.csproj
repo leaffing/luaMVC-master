@@ -125,9 +125,6 @@
     <Compile Include="Assets\LuaMVC\Utils\Exception\LuaMVCException.cs" />
     <Compile Include="Assets\LuaMVC\Utils\Macros\Macros.cs" />
     <Compile Include="Assets\LuaMVC\Utils\Thread\Loom.cs" />
-    <Compile Include="Assets\Script\Debug\Console.cs" />
-    <Compile Include="Assets\Script\Debug\LogWriter.cs" />
-    <Compile Include="Assets\Script\Debug\TDebug.cs" />
     <Compile Include="Assets\Script\LuaMVC\GaneUtils\AudioEntry\AudioEntry.cs" />
     <Compile Include="Assets\Script\LuaMVC\GaneUtils\AudioEntry\AudioEntryMediator.cs" />
     <Compile Include="Assets\Script\LuaMVC\GaneUtils\FileStream\Path\FilePath.cs" />

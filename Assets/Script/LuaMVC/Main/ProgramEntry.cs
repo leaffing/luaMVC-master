@@ -1,9 +1,11 @@
-
 using System.Collections;
 using LuaMVC; 
 
 namespace LuaMVC
 {
+    /// <summary>
+    /// 框架入口
+    /// </summary>
 	public class ProgramEntry : Program
 	{   
 		protected override void Awake()
