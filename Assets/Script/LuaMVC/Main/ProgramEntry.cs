@@ -11,9 +11,9 @@ namespace LuaMVC
             LuaMVCDebug.Debug("欢迎使用LuaMVC框架.");
 		}  
 
-		protected override void Start ()
+		protected override void Start()
 		{
-			base.Start ();
+			base.Start();
 		}
 
 		protected override IEnumerator Init()
