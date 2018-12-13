@@ -1,0 +1,34 @@
+ManifestFileVersion: 0
+CRC: 3370607281
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: be21b3fbd60656edbf60d5d46464e66e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Script/LuaScripts/LovePageMediator.lua.txt
+- Assets/Script/LuaScripts/TestModle.lua.txt
+- Assets/Script/LuaScripts/LovePageView.lua.txt
+- Assets/Script/LuaScripts/UserProductEditorPageView.lua.txt
+- Assets/Script/LuaScripts/FunctionBarMediator.lua.txt
+- Assets/Script/LuaScripts/UserPageMediator.lua.txt
+- Assets/Script/LuaScripts/LoginViewMediator.lua.txt
+- Assets/Script/LuaScripts/MainPageMediator.lua.txt
+- Assets/Script/LuaScripts/LoginView.lua.txt
+- Assets/Script/LuaScripts/LoveProductView.lua.txt
+- Assets/Script/LuaScripts/NotificationType.lua.txt
+- Assets/Script/LuaScripts/MainPageView.lua.txt
+- Assets/Script/LuaScripts/StartUpCommand.lua.txt
+- Assets/Script/LuaScripts/TestProxy.lua.txt
+- Assets/Script/LuaScripts/FunctionBarView.lua.txt
+- Assets/Script/LuaScripts/LuaFacade.lua.txt
+- Assets/Script/LuaScripts/UserPageView.lua.txt
+- Assets/Script/LuaScripts/TestCommand.lua.txt
+- Assets/Script/LuaScripts/ViewNames.lua.txt
+Dependencies: []

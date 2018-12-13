@@ -1,0 +1,43 @@
+
+-- 项目登陆
+local luaFacade = CS.LuaMVC.LuaApplicationFacade
+
+LoginView = {} 
+
+LoginView.ViewName = ViewNames.LoginView
+local transform
+LoginView.ClickNum = 0
+
+LoginView.awake = function()  
+	transform = LoginView.self.transform
+	LoginView.Text = transform:Find("Panel/Text"):GetComponent("Text")
+	LoginView.Button = transform:Find("Panel/Button"):GetComponent("Button")
+	LoginView.Button.onClick:AddListener(function()
+		print("你点击了按钮Button")
+		LoginView.ClickNum = LoginView.ClickNum+1
+		LoginView.Text.text="ClickNum"..LoginView.ClickNum
+		luaFacade.SendNotification(NotificationType.TestCommand)
+		luaFacade.SendNotification(NotificationType.V2S_LOGIN)
+		print(NotificationType.V2S_LOGIN)
+	end)
+	
+	--[[LoginView.Password = transform:Find("Panel/Password"):GetComponent("Password")
+
+	transform:Find("Panel/PasswordButton"):GetComponent("Button").onClick:AddListener(function()
+		print("获取手机验证码，请稍后，这里需要接入ShareSDK iOS，以提供此功能。")
+	end)
+	transform:Find("Panel/LoginButton"):GetComponent("Button").onClick:AddListener(function()
+		print("登陆手机号 " .. LoginView.Username.text)
+	end)]]--
+	print('LoginView start')
+end
+
+LoginView.Open = function()
+	LoginView.panel:SetActive(true)
+end
+
+LoginView.Close = function()
+	LoginView.panel:SetActive(false)
+end
+
+return LoginView

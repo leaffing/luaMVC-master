@@ -1,0 +1,26 @@
+require('TestModle') 
+
+
+TestProxy = {}
+local this = TestProxy
+this.Data = TestModle:Init()
+
+this.NAME = "TestProxy"
+
+this.OnRegister = function()
+	print("MODLE:"..this.Data.ClickNum)
+end
+
+this.OnRemove = function()
+end
+
+this.DoSomething = function(data)
+	this.Data.ClickNum = this.Data.ClickNum..data
+	print("MODLE:"..this.Data.ClickNum)
+	this.TestFun();
+end
+
+this.TestFun = function( ... )
+	-- body
+	print("You know me!")
+end

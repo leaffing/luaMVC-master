@@ -1,0 +1,17 @@
+﻿
+
+<linker>
+
+	<assembly fullname="Assembly-CSharp">
+	    <type fullname="PureMVC.Patterns.Lua.LuaFacade" preserve="all"/>
+		<type fullname="LuaMVC.ViewMaster" preserve="all"/>
+		<type fullname="LuaMVC.ILuaCallback" preserve="all"/>
+		<type fullname="LuaMVC.LuaCallback" preserve="all"/>
+		<type fullname="LuaMVC.LoadRequest" preserve="all"/>
+		<type fullname="LuaMVC.LoadedAsset" preserve="all"/>
+		<type fullname="LuaMVC.AssetLoader" preserve="all"/>
+		<type fullname="LuaMVC.LuaApplicationFacade" preserve="all"/>
+		
+	</assembly>
+
+</linker>

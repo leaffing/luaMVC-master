@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1585998715
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: views.unity3d
+      Dependencies: {}

@@ -1,0 +1,13 @@
+
+-- 项目系统启动命令 startup
+local luaFacade = CS.LuaMVC.LuaApplicationFacade
+
+TestCommand = {}
+this = TestCommand
+
+TestCommand.NAME = NotificationType.TestCommand
+
+TestCommand.Execute = function(notification)
+	print('just for test')
+	print(luaFacade.Instance:RetrieveLuaProxy("TestProxy").DoSomething("levelUP"))
+end

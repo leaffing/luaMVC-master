@@ -1,0 +1,14 @@
+TestModle={}
+
+local this = TestModle
+
+this.ClickNum = nil
+
+--大写为静态方法
+function this:Init()
+	
+	if this.ClickNum==nil then
+		this.ClickNum = 0
+	end
+	return this
+end
