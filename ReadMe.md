@@ -1,5 +1,5 @@
 # luaMVC 框架(xlua+pureMVC)
->来源网络 https://blog.csdn.net/qq_29579137/article/details/79107229
+>来源网络 [作者博客]https://blog.csdn.net/qq_29579137/article/details/79107229
 ## 更新说明
 ### LuaMVC Beta 0.1版本更新说明
 #### v0.1 去除pureMVC中反射机制，整合Mediator和Command
